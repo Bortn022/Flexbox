@@ -1,7 +1,13 @@
 h1 {
-    font-size: 1.5em;
-    margin: 0;
-    padding: 0;
+    font-size: 1.1em;
+    margin: unset;
+    padding: unset;
+}
+
+p {
+    font-size: .75em;
+    margin: unset;
+    padding: unset;
 }
 
 .container {
@@ -17,20 +23,55 @@ h1 {
     display: flex;
     margin: 1rem;
     background-color: white;
-    width: 20rem;
+    width: 300px;
     height: 12rem;
     border: solid black 1px;
     border-radius: 10px;
 }
 
-.photo {
-    height: 7rem;
-    width: 7rem;
-    background-color: blue;
+.card aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin: 1rem;
 }
 
-.info {
-    margin: 1rem;
+.card article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0.5rem 1rem 0 0;
 }
+
+.photo {
+    height: 100px;
+    width: 80px;
+    background-color: blue;
+}
+
+.eyes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eye-color-box {
+    margin: 15px;
+    height: 15px;
+    width: 15px;
+}
+
+.eye-color-box.blue {
+    background-color: blue;
+}
+
+.eye-color-box.brown {
+    background-color: saddlebrown;
+}
+
+.eye-color-box.green {
+    background-color: green;
+}
+
 
